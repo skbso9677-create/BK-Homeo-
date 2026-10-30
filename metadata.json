@@ -1,0 +1,6 @@
+{
+  "name": "BK Homeo - B K Homeopathic Store",
+  "description": "Premium Android-friendly homeopathic medicine shopping app for B K HOMEOPATHIC STORE, Saharanpur, UP. Authentic dilutions, mother tinctures, and expert care by Dr. Sonu Kumar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

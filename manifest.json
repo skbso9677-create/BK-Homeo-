@@ -1,0 +1,18 @@
+{
+  "short_name": "BK Homeo",
+  "name": "BK Homeo - B K Homeopathic Store, Saharanpur",
+  "description": "Premium homeopathic medicine shopping app for B K HOMEOPATHIC STORE, Saharanpur, UP.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#047857",
+  "display": "standalone",
+  "orientation": "portrait"
+}

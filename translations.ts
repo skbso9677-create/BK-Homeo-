@@ -1,0 +1,272 @@
+import { Language } from '../types';
+
+export const translations = {
+  en: {
+    // Header & Brand
+    appName: 'BK Homeo',
+    storeName: 'B K HOMEOPATHIC STORE',
+    storeCity: 'Saharanpur, UP',
+    ownerTitle: 'Managed by Dr. Sonu Kumar',
+    openStatus: 'Open Today: 10:00 AM - 9:00 PM',
+    closedTuesday: 'Closed on Tuesday',
+    searchPlaceholder: 'Search homeopathic medicines, drops, dilutions, brands...',
+    adminAccess: 'Admin Portal',
+    switchToHindi: 'हिंदी',
+    switchToEnglish: 'English',
+    callStore: 'Call Store',
+    whatsappConsult: 'WhatsApp Dr. Sonu',
+
+    // Navigation
+    navHome: 'Home',
+    navCategories: 'Catalog',
+    navPrescription: 'Prescription',
+    navOrders: 'My Orders',
+    navCart: 'Cart',
+    navStore: 'Store Info',
+
+    // Banners & Promos
+    banner1Title: 'Authentic German & Indian Homeopathy',
+    banner1Subtitle: 'Dr. Reckeweg, SBL, Schwabe & Bakson 100% Genuine Sealed Stock',
+    banner2Title: 'Free Local Delivery in Saharanpur',
+    banner2Subtitle: 'On all orders above ₹399 | Same day delivery available',
+    banner3Title: 'Direct Advice from Dr. Sonu Kumar',
+    banner3Subtitle: 'Send your prescription or health query on WhatsApp',
+    uploadPrescriptionBtn: 'Upload Prescription',
+
+    // Categories
+    catAll: 'All Medicines',
+    catDilutions: 'Dilutions (30/200/1M)',
+    catMotherTinctures: 'Mother Tinctures (Q)',
+    catBiochemic: 'Biochemic (6X/12X)',
+    catPatentsDrops: 'Patent Drops & R-Series',
+    catSyrupsTonics: 'Syrups & Tonics',
+    catOintments: 'Ointments & Creams',
+    catHairSkin: 'Hair & Skin Care',
+    catVeterinary: 'Pet & Veterinary',
+
+    // Product labels
+    inStock: 'In Stock',
+    lowStock: 'Few Left',
+    outOfStock: 'Out of Stock',
+    selectPotency: 'Select Potency',
+    selectPackSize: 'Pack Size',
+    addToCart: 'Add to Cart',
+    buyNow: 'Buy Now',
+    addedToCart: 'Added to Cart',
+    viewDetails: 'View Details',
+    indications: 'Key Indications & Symptoms',
+    directionsForUse: 'Dosage & Directions',
+    composition: 'Composition / Active Ingredients',
+    genuineGuarantee: '100% Genuine Sealed Bottle from Certified Manufacturers',
+    askOnWhatsApp: 'Consult Dr. Sonu About This Medicine',
+
+    // Cart & Checkout
+    myCart: 'Shopping Cart',
+    cartEmpty: 'Your medicine cart is empty',
+    cartEmptySubtitle: 'Browse our catalog of dilutions, mother tinctures & tonics.',
+    startShopping: 'Explore Catalog',
+    itemsCount: 'items',
+    itemTotal: 'Item Total (MRP)',
+    storeDiscount: 'Store Discount',
+    shipping: 'Delivery Charges',
+    freeShipping: 'FREE',
+    freeShippingNotice: 'Add ₹{amount} more for FREE Delivery!',
+    freeShippingUnlocked: '🎉 You unlocked FREE Delivery in Saharanpur!',
+    couponDiscount: 'Coupon Discount',
+    grandTotal: 'Total Payable',
+    applyCoupon: 'Apply Coupon',
+    enterCoupon: 'Enter promo code',
+    couponApplied: 'Coupon applied successfully!',
+    deliveryOption: 'Choose Fulfillment Option',
+    homeDelivery: 'Home Delivery (Saharanpur & Pan-India)',
+    storePickup: 'Pickup at Kisanpura Nala Patri Store',
+    deliveryAddress: 'Delivery Address',
+    addNewAddress: '+ Add New Address',
+    paymentMethod: 'Select Payment Method',
+    cashOnDelivery: 'Cash on Delivery (COD) / Pay at Store',
+    upiPayment: 'Instant UPI (GPay / PhonePe / Paytm / QR)',
+    placeOrder: 'Confirm & Place Order',
+    demoNotice: 'Demo Prototype Mode: No real transaction will be deducted.',
+
+    // Address fields
+    fullName: 'Full Name',
+    phoneNumber: 'Mobile Phone (10-digit)',
+    streetAddress: 'House No., Building, Street Name',
+    landmark: 'Landmark (e.g. Near Kisanpura bridge)',
+    city: 'City',
+    state: 'State',
+    pincode: 'PIN Code',
+    saveAddress: 'Save Address',
+
+    // Orders & Tracking
+    myOrders: 'My Orders',
+    noOrders: 'No orders placed yet',
+    orderId: 'Order #',
+    orderDate: 'Date',
+    orderStatus: 'Status',
+    trackOrder: 'Track Order',
+    viewInvoice: 'View Summary',
+    statusPlaced: 'Order Placed',
+    statusVerified: 'Prescription & Stock Verified',
+    statusPacked: 'Packed at Saharanpur Store',
+    statusOutForDelivery: 'Out for Delivery',
+    statusDelivered: 'Delivered',
+    statusCancelled: 'Cancelled',
+    orderHelp: 'Need help with this order? Chat with Dr. Sonu Kumar',
+
+    // Store Info & Contact
+    storeAddressLabel: 'Store Address',
+    fullAddress: 'Kisanpura Nala Patri, Saharanpur, Uttar Pradesh, India',
+    businessHoursLabel: 'Business Hours',
+    businessHoursDetail: '10:00 AM to 9:00 PM (Monday to Sunday, Closed Tuesday)',
+    contactNumberLabel: 'Phone & WhatsApp',
+    contactNumber: '6395352618',
+    ownerLabel: 'Doctor / Store Owner',
+    ownerName: 'Dr. Sonu Kumar',
+    openInGoogleMaps: 'Open in Google Maps',
+
+    // Health Disclaimer
+    disclaimerTitle: 'Important Health Information & Safe Usage Disclaimer',
+    disclaimerText: 'Homeopathic medicines are intended for therapeutic use based on homoeopathic symptoms and principles. This application does not promote self-medication for severe, acute, or chronic medical emergencies. Always consult a qualified homoeopathic physician or Dr. Sonu Kumar for accurate diagnosis and tailored dosage. Do not abruptly discontinue essential prescribed medical treatments.',
+
+    // APK & Tech Guide
+    apkGuideBtn: 'Android APK & Developer Guide',
+    apkModalTitle: 'Android APK & Production Setup Guide',
+  },
+  hi: {
+    // Header & Brand
+    appName: 'बीके होमियो',
+    storeName: 'बी के होम्योपैथिक स्टोर',
+    storeCity: 'सहारनपुर, उत्तर प्रदेश',
+    ownerTitle: 'संचालक: डॉ. सोनू कुमार',
+    openStatus: 'खुला है: प्रातः 10:00 से रात्रि 9:00 बजे तक',
+    closedTuesday: 'मंगलवार को अवकाश रहता है',
+    searchPlaceholder: 'होम्योपैथिक दवाएं, डाइल्यूशन, टिंचर, जर्मन ड्रॉप्स खोजें...',
+    adminAccess: 'एडमिन पोर्टल',
+    switchToHindi: 'हिंदी',
+    switchToEnglish: 'English',
+    callStore: 'दुकान पर कॉल करें',
+    whatsappConsult: 'डॉ. सोनू से परामर्श लें',
+
+    // Navigation
+    navHome: 'होम',
+    navCategories: 'दवा सूची',
+    navPrescription: 'पर्चा भेजें',
+    navOrders: 'मेरे ऑर्डर',
+    navCart: 'कार्ट',
+    navStore: 'दुकान की जानकारी',
+
+    // Banners & Promos
+    banner1Title: 'विश्वसनीय जर्मन व भारतीय होम्योपैथी',
+    banner1Subtitle: 'Dr. Reckeweg, SBL, Schwabe एवं Bakson की 100% असली सीलबंद दवाएं',
+    banner2Title: 'सहारनपुर में मुफ्त होम डिलीवरी',
+    banner2Subtitle: '₹399 से अधिक के ऑर्डर पर | उसी दिन डिलीवरी की सुविधा',
+    banner3Title: 'डॉ. सोनू कुमार से सीधी सलाह',
+    banner3Subtitle: 'अपना डॉक्टर का पर्चा या समस्या व्हाट्सऐप पर भेजें',
+    uploadPrescriptionBtn: 'डॉक्टर का पर्चा अपलोड करें',
+
+    // Categories
+    catAll: 'सभी दवाएं',
+    catDilutions: 'डाइल्यूशन (30/200/1M)',
+    catMotherTinctures: 'मदर टिंचर (Q)',
+    catBiochemic: 'बायोकेमिक (6X/12X)',
+    catPatentsDrops: 'पेटेंट ड्रॉप्स व R-सीरीज़',
+    catSyrupsTonics: 'सिरप एवं टॉनिक',
+    catOintments: 'मलहम एवं क्रीम',
+    catHairSkin: 'बाल व त्वचा सुरक्षा',
+    catVeterinary: 'पशु चिकित्सा',
+
+    // Product labels
+    inStock: 'उपलब्ध है',
+    lowStock: 'सीमित स्टॉक',
+    outOfStock: 'स्टॉक समाप्त',
+    selectPotency: 'पोटेंसी चुनें',
+    selectPackSize: 'पैक साइज',
+    addToCart: 'कार्ट में जोड़ें',
+    buyNow: 'अभी खरीदें',
+    addedToCart: 'कार्ट में जोड़ दिया गया',
+    viewDetails: 'विवरण देखें',
+    indications: 'रोग के लक्षण एवं उपयोग',
+    directionsForUse: 'सेवन विधि व खुराक',
+    composition: 'संघटन व सक्रिय घटक',
+    genuineGuarantee: '100% असली सीलबंद दवा की गारंटी',
+    askOnWhatsApp: 'इस दवा के बारे में डॉ. सोनू से पूछें',
+
+    // Cart & Checkout
+    myCart: 'दवा कार्ट',
+    cartEmpty: 'आपकी कार्ट अभी खाली है',
+    cartEmptySubtitle: 'हमारी डाइल्यूशन, मदर टिंचर और टॉनिक सूची देखें।',
+    startShopping: 'दवाएं देखें',
+    itemsCount: 'आइटम',
+    itemTotal: 'कुल मूल्य (MRP)',
+    storeDiscount: 'स्टोर छूट',
+    shipping: 'डिलीवरी शुल्क',
+    freeShipping: 'मुफ्त',
+    freeShippingNotice: 'मुफ्त डिलीवरी के लिए ₹{amount} का सामान और जोड़ें!',
+    freeShippingUnlocked: '🎉 आपको सहारनपुर में मुफ्त डिलीवरी मिली!',
+    couponDiscount: 'कूपन छूट',
+    grandTotal: 'कुल भुगतान राशि',
+    applyCoupon: 'कूपन लागू करें',
+    enterCoupon: 'कूपन कोड डालें',
+    couponApplied: 'कूपन सफलतापूर्वक लागू हुआ!',
+    deliveryOption: 'प्राप्ति का तरीका चुनें',
+    homeDelivery: 'घर पर डिलीवरी (सहारनपुर व आसपास)',
+    storePickup: 'दुकान से प्राप्त करें (किसानपुरा नाला पटरी)',
+    deliveryAddress: 'डिलीवरी का पता',
+    addNewAddress: '+ नया पता जोड़ें',
+    paymentMethod: 'भुगतान का तरीका चुनें',
+    cashOnDelivery: 'कैश ऑन डिलीवरी (COD) / दुकान पर भुगतान',
+    upiPayment: 'तत्काल UPI (GPay / PhonePe / Paytm / QR)',
+    placeOrder: 'ऑर्डर पक्का करें',
+    demoNotice: 'प्रोटोटाइप डेमो मोड: कोई वास्तविक शुल्क नहीं कटेगा।',
+
+    // Address fields
+    fullName: 'पूरा नाम',
+    phoneNumber: 'मोबाइल नंबर (10 अंक)',
+    streetAddress: 'मकान नं., गली, मोहल्ला',
+    landmark: 'लैंडमार्क (उदा. किसानपुरा पुल के पास)',
+    city: 'शहर',
+    state: 'राज्य',
+    pincode: 'पिन कोड',
+    saveAddress: 'पता सुरक्षित करें',
+
+    // Orders & Tracking
+    myOrders: 'मेरे ऑर्डर',
+    noOrders: 'अभी तक कोई ऑर्डर नहीं दिया गया है',
+    orderId: 'ऑर्डर नं.',
+    orderDate: 'दिनांक',
+    orderStatus: 'स्थिति',
+    trackOrder: 'ऑर्डर ट्रैक करें',
+    viewInvoice: 'सारांश देखें',
+    statusPlaced: 'ऑर्डर प्राप्त हुआ',
+    statusVerified: 'पर्चा एवं दवा सत्यापित',
+    statusPacked: 'सहारनपुर स्टोर में पैक हुआ',
+    statusOutForDelivery: 'डिलीवरी के लिए रवाना',
+    statusDelivered: 'सफलतापूर्वक प्राप्त हुआ',
+    statusCancelled: 'रद्द किया गया',
+    orderHelp: 'इस ऑर्डर में सहायता चाहिए? डॉ. सोनू कुमार से संपर्क करें',
+
+    // Store Info & Contact
+    storeAddressLabel: 'दुकान का पता',
+    fullAddress: 'किसानपुरा नाला पटरी, सहारनपुर, उत्तर प्रदेश, भारत',
+    businessHoursLabel: 'खुलने का समय',
+    businessHoursDetail: 'प्रातः 10:00 से रात्रि 9:00 बजे तक (सोमवार से रविवार, मंगलवार बंद)',
+    contactNumberLabel: 'फोन एवं व्हाट्सऐप',
+    contactNumber: '6395352618',
+    ownerLabel: 'चिकित्सक / स्टोर संचालक',
+    ownerName: 'डॉ. सोनू कुमार',
+    openInGoogleMaps: 'गूगल मैप्स पर देखें',
+
+    // Health Disclaimer
+    disclaimerTitle: 'महत्वपूर्ण स्वास्थ्य जानकारी एवं सुरक्षा परामर्श',
+    disclaimerText: 'होम्योपैथिक दवाओं का उपयोग लक्षणों और सिद्धांतों के आधार पर किया जाता है। यह एप्लिकेशन गंभीर या आपातकालीन स्थितियों में बिना डॉक्टरी परामर्श के खुद से दवा लेने (Self-medication) का समर्थन नहीं करता है। सही जांच और उचित खुराक के लिए हमेशा किसी योग्य होम्योपैथिक चिकित्सक या डॉ. सोनू कुमार से परामर्श लें। चल रहे जरूरी एलोपैथिक उपचार को अचानक बंद न करें।',
+
+    // APK & Tech Guide
+    apkGuideBtn: 'एंड्रॉइड APK और डेवलपर गाइड',
+    apkModalTitle: 'एंड्रॉइड APK और प्रोडक्शन सेटअप गाइड',
+  }
+};
+
+export function t(lang: Language, key: keyof typeof translations['en']): string {
+  return translations[lang][key] || translations['en'][key] || key;
+}
